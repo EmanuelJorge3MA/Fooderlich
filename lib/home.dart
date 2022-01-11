@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'card1.dart';
 import 'card2.dart';
+import 'card3.dart';
 
 // 1
 class Home extends StatefulWidget {
-  Home({Key? key}) : super(key: key);
+  const Home({Key? key}) : super(key: key);
 
   @override
   _HomState createState() => _HomState();
@@ -20,11 +21,12 @@ class _HomState extends State<Home> {
     // Replace with Card1
     // Container(color: Colors.red),
     const Card1(),
-    // TODO: Replace with Card2
+    // Replace with Card2
     // Container(color: Colors.green),
     const Card2(),
-    // TODO: Replace with Card3
-    Container(color: Colors.blue)
+    // Replace with Card3
+    // Container(color: Colors.blue)
+    const Card3(),
   ];
 
   // 9
